@@ -26,6 +26,9 @@ var settings = module.exports = {
     // Add the nodes in
     nodesDir: path.join(__dirname,"nodes"),
 
+    // Blacklist the non-bluemix friendly nodes
+    nodesExcludes:[ '66-mongodb.js','75-exec.js','35-arduino.js','36-rpi-gpio.js','25-serial.js','28-tail.js','50-file.js','31-tcpin.js','32-udp.js','23-watch.js' ],
+
     // Enable module reinstalls on start-up; this ensures modules installed
     // post-deploy are restored after a restage
     autoInstallModules: true,
@@ -66,5 +69,5 @@ if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
     }
 }
 
-settings.mongoAppname = process.env.NODE_RED_APPNAME || 'node-red';
+settings.mongoAppname = process.env.NODE_RED_APPNAME || 'nodered';
 settings.mongoUrl = process.env.MONGOLAB_URI;

@@ -228,6 +228,43 @@ function saveCredentials(credentials) {
     return defer.promise;
 }
 
+function getSettings () {
+    var defer = when.defer();
+    collection().then(function(collection) {
+        collection.findOne({appname:appname},function(err,doc) {
+            if (err) {
+                defer.reject(err);
+            } else {
+                if (doc && doc.settings) {
+                    defer.resolve(jconv(doc.settings));
+                } else {
+                    defer.resolve({});
+                }
+            }
+        })
+    }).otherwise(function(err) {
+        defer.reject(err);
+    });
+    return defer.promise;
+}
+
+function saveSettings (settings) {
+    var defer = when.defer();
+    collection().then(function(collection) {
+        collection.update({appname:appname},{$set: {"settings":bconv(settings)}},{upsert:true},function(err) {
+            if (err) {
+                console.log(err);
+                defer.reject(err);
+            } else {
+                defer.resolve();
+            }
+        })
+    }).otherwise(function(err) {
+        defer.reject(err);
+    });
+    return defer.promise;
+}
+
 function getAllFlows() {
     var defer = when.defer();
     libCollection().then(function(libCollection) {
@@ -372,6 +409,14 @@ var mongostorage = {
 
     saveCredentials: function(credentials) {
         return timeoutWrap(function(){return saveCredentials(credentials);});
+    },
+
+    getSettings: function() {
+        return timeoutWrap(function() { return getSettings();});
+    },
+
+    saveSettings: function(data) {
+        return timeoutWrap(function() { return saveSettings(data);});
     },
 
     getAllFlows: function() {
