@@ -1,0 +1,22 @@
+{
+    "name"         : "node-red-heroku",
+    "version"      : "0.0.1",
+    "dependencies": {
+        "when": "~3.x",
+        "mongodb": "~1.4.x",
+        "nano": "~5.11.0",
+        "cfenv":"~1.0.0",
+        "feedparser":"~0.19.2",
+        "redis":"~0.10.1",
+        "node-red": "0.x",
+        "node-red-node-td":"0.x",
+        "node-red-bluemix-nodes":"0.x",
+        "node-red-contrib-scx-ibmiotapp":"0.x",
+        "node-red-contrib-ibmpush":"0.x",
+        "node-red-contrib-bluemix-hdfs":"0.x",
+        "node-red-nodes-cf-sqldb-dashdb":"0.x"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
+}

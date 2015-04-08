@@ -1,0 +1,10 @@
+.DS_Store
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.forever
+.node-gyp
+node_modules
+.npm
+.profile
