@@ -18,7 +18,7 @@
     "NODE_RED_PASSWORD": {
       "description": "The password to secure the editor.",
       "value": ""
-    },
+    }
   },
   "addons": [ "mongolab" ]
 }
