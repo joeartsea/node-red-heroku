@@ -8,7 +8,7 @@
   "success_url": "/",
   "env": {
     "NODE_RED_APPNAME": {
-      "description": "The appname. (optional)",
+      "description": "The appname.",
       "value": ""
     },
     "NODE_RED_USERNAME": {
