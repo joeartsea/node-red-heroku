@@ -7,10 +7,6 @@
   "logo": "http://nodered.org/node-red.png",
   "success_url": "/",
   "env": {
-    "NODE_RED_APPNAME": {
-      "description": "The appname.",
-      "value": ""
-    },
     "NODE_RED_USERNAME": {
       "description": "The username to secure the editor.",
       "value": ""

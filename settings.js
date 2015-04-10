@@ -69,5 +69,5 @@ if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
     }
 }
 
-settings.mongoAppname = process.env.NODE_RED_APPNAME || 'nodered';
+settings.mongoAppname = 'nodered';
 settings.mongoUrl = process.env.MONGOLAB_URI;

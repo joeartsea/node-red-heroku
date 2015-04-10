@@ -13,6 +13,5 @@ By default, the editor is open for anyone to access and modify flows. To passwor
 
 Add the following user-defined variables.
 
-* NODE_RED_APPNAME - the appname
 * NODE_RED_USERNAME - the username to secure the editor with
 * NODE_RED_PASSWORD - the password to secure the editor with
