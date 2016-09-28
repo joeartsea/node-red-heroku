@@ -45,7 +45,12 @@ var settings = module.exports = {
 
     functionGlobalContext: { },
 
-    storageModule: require("./mongostorage")
+    storageModule: require("./mongostorage"),
+
+    httpNodeCors: {
+        origin: "*",
+        methods: "GET,PUT,POST,DELETE"
+    }
 }
 
 if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
