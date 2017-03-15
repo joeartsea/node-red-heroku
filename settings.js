@@ -50,7 +50,10 @@ var settings = module.exports = {
     httpNodeCors: {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
-    }
+    },
+    
+    // Disbled Credential Secret
+    credentialSecret: false
 }
 
 if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
