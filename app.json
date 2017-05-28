@@ -3,7 +3,7 @@
   "description": "A visual tool for wiring the Internet of Things.",
   "keywords": [ "Node-RED", "IoT", "Internet of Things", "node.js", "node" ],
   "website": "http://nodered.org/",
-  "repository": "https://github.com/joeartsea/node-red-heroku.git",
+  "repository": "https://github.com/rhalldearn/node-red-heroku.git",
   "logo": "http://nodered.org/node-red.png",
   "success_url": "/",
   "env": {
