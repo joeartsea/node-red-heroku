@@ -9,3 +9,5 @@
 node_modules
 .npm
 .profile
+
+\.idea/

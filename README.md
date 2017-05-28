@@ -5,7 +5,7 @@ A wrapper for deploying [Node-RED](http://nodered.org) into the [Heroku](https:/
 
 ### Deploying Node-RED into Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/joeartsea/node-red-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/rhalldearn/node-red-heroku)
 
 ### Password protect the flow editor
 
