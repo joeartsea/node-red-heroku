@@ -11,6 +11,7 @@
         "node-red-contrib-admin":"0.x",
         "node-red-contrib-slack":"~0.1.2",
         "node-red-contrib-slackbot":"~1.0.3",
-        "node-red-contrib-wit":"~0.1.4"
+        "node-red-contrib-wit":"~0.1.4",
+        "node-red-contrib-web-worldmap":"~1.0.29"
     }
 }
