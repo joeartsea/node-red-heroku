@@ -7,6 +7,7 @@
         "nano": "~5.11.0",
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
+        "pg": "~7.4",
         "node-red": "~0.x",
         "node-red-contrib-admin":"0.x",
         "node-red-contrib-slack":"~0.1.2",
