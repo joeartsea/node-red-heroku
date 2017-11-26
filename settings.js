@@ -44,6 +44,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
+        pg:require('pg'),
         pgQuery:require('pg-query'),
     },
 
