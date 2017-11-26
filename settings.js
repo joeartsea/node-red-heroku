@@ -16,6 +16,7 @@
 
 var path = require("path");
 var when = require("when");
+var pg = require("pg");
 
 var settings = module.exports = {
     uiPort: process.env.PORT || 1880,
@@ -44,7 +45,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-        pg:require('pg'),
+        pg:pg,
         pgQuery:require('pg-query'),
     },
 
