@@ -12,6 +12,7 @@
         "pg-query": "~0.11.0",
         "node-red": "~0.x",
         "node-red-contrib-admin":"0.x",
+        "node-red-contrib-postgres":"~0.6.1",
         "node-red-contrib-slack":"~0.1.2",
         "node-red-contrib-slackbot":"~1.0.3",
         "node-red-contrib-wit":"~0.1.4",
