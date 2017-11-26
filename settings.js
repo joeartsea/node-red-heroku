@@ -43,7 +43,9 @@ var settings = module.exports = {
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
-    functionGlobalContext: { },
+    functionGlobalContext: {
+        pgQuery:require('pg-query'),
+    },
 
     storageModule: require("./mongostorage"),
 
@@ -51,7 +53,7 @@ var settings = module.exports = {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
     },
-    
+
     // Disbled Credential Secret
     credentialSecret: false
 }
