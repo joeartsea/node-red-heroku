@@ -13,7 +13,7 @@
         "node-red-contrib-slack":"~0.1.2",
         "node-red-contrib-slackbot":"~1.0.3",
         "node-red-contrib-wit":"~0.1.4",
-        "node-red-contrib-web-worldmap":"~1.0.29"
+        "node-red-contrib-web-worldmap":"~1.1.7"
     },
     "engines" : { "node" : "6.11.1" }
 }
