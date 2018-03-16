@@ -51,7 +51,7 @@ var settings = module.exports = {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
     },
-    
+
     // Disbled Credential Secret
     credentialSecret: false
 }

@@ -8,6 +8,13 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "~0.x",
-        "node-red-contrib-admin":"0.x"
-    }
+        "node-red-contrib-admin":"0.x",
+        "node-red-contrib-postgres":"~0.6.1",
+        "node-red-contrib-slack":"~0.1.2",
+        "node-red-contrib-slackbot":"~1.0.3",
+        "node-red-contrib-wit":"~0.1.4",
+        "node-red-contrib-web-worldmap":"~1.1.7",
+        "node-red-contrib-soap":"~0.1.0"
+    },
+    "engines" : { "node" : "6.11.1" }
 }
