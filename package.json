@@ -3,7 +3,7 @@
     "version"      : "0.0.2",
     "dependencies": {
         "when": "~3.x",
-        "mongodb": "~2.1.x",
+        "pg": "^8.3.0",
         "nano": "~5.11.0",
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
