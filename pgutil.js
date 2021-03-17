@@ -7,7 +7,10 @@ let pool
 const initPG = () => {
   const pgUrl = process.env.DATABASE_URL
   console.log('pgUrl', pgUrl)
-  pool = new pg.Pool({ connectionString: pgUrl })
+  pool = new pg.Pool({ 
+    connectionString: pgUrl,
+    ssl: { rejectUnauthorized: false }
+  })
   return pool
 }
 
