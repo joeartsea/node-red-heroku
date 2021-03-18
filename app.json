@@ -7,13 +7,13 @@
   "logo": "http://nodered.org/node-red.png",
   "success_url": "/",
   "env": {
-    "NODE_RED_PASSWORD": {
-      "description": "The password to secure the editor.",
-      "value": ""
-    },
     "NODE_RED_USERNAME": {
       "description": "The username to secure the editor.",
-      "value": ""
+      "value": "admin"
+    },
+    "NODE_RED_PASSWORD": {
+      "description": "The password to secure the editor.",
+      "value": "password"
     }
   },
   "addons": [
