@@ -4,7 +4,7 @@
     "dependencies": {
         "when": "~3.x",
         "pg": "^8.3.0",
-        "nano": "~5.11.0",
+        "nano": "~10.x",
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "~2.x"
