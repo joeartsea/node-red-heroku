@@ -15,3 +15,7 @@ Add the following user-defined variables.
 
 * NODE_RED_USERNAME - the username to secure the editor with
 * NODE_RED_PASSWORD - the password to secure the editor with
+
+### Attention
+
+Since heroku and heroku-postgresql are no longer available for free, a paid environment is required to use this application
